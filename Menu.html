@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>TEST - 1</title>
+        <!--Meta-->
+        <meta charset="utf-8">
+        <meta name="author" content="RORR">
+        <!-- <meta http-equiv="refresh" content="30;https://google.com"> -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Icono-->
+        <link rel="shortcut icon" href="IMG/medusa.png">
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css" type="text/css" media="">
+    </head>
+
+
+<!--Estilos-->
+<style>
+      * {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* Navegacion */
+.Content-NAV {
+    background: rgb(72, 20, 72);
+    height: 80px;
+}
+
+.Nav-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.Nav-Img {
+    width: 50px;
+    height: 50px;
+}
+
+.TEST {
+    font-size: 15px;
+}
+
+.Nav-Main ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.Nav-Main ul li {
+    padding: 15px;
+    background: rgb(108, 9, 108);
+    border-radius: 10px;
+    color: white;
+}
+
+.Nav-Main .nav-menu a {
+    text-decoration: none;
+}
+
+a .TEST:hover {
+    background: rgb(100, 0, 255, .4);
+}
+
+a .TEST:active {
+    background: rgb(255, 0, 100, 1);
+}
+
+/* Iconos */
+header .RED a{
+    text-decoration: none;
+    color: white;
+}
+
+.RED {
+    position: absolute;
+    border-radius: 1000px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 42px;
+    cursor: pointer;
+}
+
+#ICONO1 {
+    top: 12px;
+    right: 120px;
+    background: red;
+}
+
+#ICONO2 {
+    top: 12px;
+    right: 71px;
+    background: Blue;
+}
+
+#ICONO3 {
+    top: 12px;
+    right: 19px;
+    background: green;
+}
+
+/* Bloque */
+.RP{
+    position: relative;
+    margin: 10px auto;
+    width: 100%;
+    height: 48px;
+}
+
+.Medusa {
+    float: left;
+    border: 2px solid black;
+    background: purple;
+    color: white;
+    width: 480px;
+    margin-left: 20px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+a .Medusa:hover {
+    background: rgb(100, 0, 255, .4);
+}
+
+a .Medusa:active {
+    background: rgb(255, 0, 100, 1);
+}
+</style>
+
+
+
+
+    <!--Estructura del test-->
+    <body>
+        <div class="container">
+            <!--Barra de navegacion-->
+            <div class="Content-NAV">
+                <nav class="Nav-Main">
+                    <ul class="nav-menu">
+                        <img src="IMG/medusa.png" class="Nav-Img">
+                        <a href="https://es.wikipedia.org/wiki/Medusozoa" target="_blank"><li class="TEST">Medusas</li></a>
+                        <a href="https://es.wikipedia.org/wiki/Oc%C3%A9ano" target="_blank"><li class="TEST">Oceanos</li></a>
+                        <a href="https://es.wikipedia.org/wiki/Mar" target="_blank"><li class="TEST">Mar</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="Content-header">
+                <header class="Header-container">
+                    <div id="ICONO1" class="RED">
+                        <a href="https://www.youtube.com" target="_blank">YT</a>
+                    </div>
+                    <div id="ICONO2" class="RED">
+                        <a href="https://www.youtube.com" target="_blank">DC</a>
+                    </div>
+                    <div id="ICONO3" class="RED">
+                        <a href="https://www.youtube.com" target="_blank">FB</a>
+                    </div>
+                </header>
+            </div>
+
+            <div class="RP">
+                <ul class="bloque_links">
+                    <a href="#"><li class="Medusa">Medusa</li></a>
+                    <a href="#"><li class="Medusa">Tortugas</li></a>
+                    <a href="#"><li class="Medusa">Tiburones</li></a>
+                </ul>
+            </div>
+
+            <div>
+                
+            </div>
+        </div>
+    </body>
+</html>
